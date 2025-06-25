@@ -76,8 +76,7 @@ This is the tool for "either/or" predictions, where the answer is a distinct cat
 
 ### **8. Summarizing Your Data (Principal Component Analysis, or PCA)**
 
-![img_5.png](img_5.png)
-
+![img_6.png](img_6.png)
 * **The Big Idea: Reducing Complexity by Finding the Core Story**
     Often, data has hundreds of features, making it overwhelmingly complex. Principal Component Analysis (PCA) is a brilliant technique for reducing this complexity. It's a data compression method, but instead of making a file smaller, it makes the *story* of the data simpler and easier to understand.
     * **Analogy: The Master Chef.** A complex sauce might have 30 different ingredients (your features). A master chef tasting it wouldn't list all 30. Instead, they would identify the two fundamental flavor axes that truly define the experience: for instance, the "richness-to-lightness" axis and the "sweet-to-savory" axis. PCA acts like this sophisticated chef for your data. It analyzes all the features and extracts the most important underlying concepts—the "Principal Components"—that capture the most significant information, allowing you to tell a compelling story with just a few key ideas instead of a hundred confusing details.
