@@ -26,6 +26,8 @@ Regardless of the task, the learning process almost always revolves around these
 
 ### **3. Predicting a Continuous Number (Linear Regression)**
 
+![img.png](img.png)
+
 This technique is your go-to when you want the AI to predict a specific, continuous number, like a price, a height, or a temperature.
 
 * **The Big Idea: The "Line of Best Fit"**
@@ -39,6 +41,9 @@ This technique is your go-to when you want the AI to predict a specific, continu
 
 ### **4. Predicting a Category (Logistic Regression)**
 
+![img_1.png](img_1.png)
+
+
 This is the tool for "either/or" predictions, where the answer is a distinct category: "Spam" or "Not Spam," "Approved" or "Denied."
 
 * **The Big Idea: From a Score to a Confident Decision**
@@ -47,11 +52,15 @@ This is the tool for "either/or" predictions, where the answer is a distinct cat
 
 ### **5. The "Birds of a Feather" Model (K-Nearest Neighbors, or KNN)**
 
+![img_2.png](img_2.png)
+
 * **The Big Idea: You're Judged by the Company You Keep**
     The K-Nearest Neighbors (KNN) algorithm is a beautifully simple and democratic approach to prediction. It operates on the principle that similar things exist in close proximity. It doesn't learn a grand "model" in the traditional sense; instead, it memorizes all the past examples and uses them for direct comparison.
     * **Example:** To recommend a new movie, the KNN model would identify the 'K' (let's say, 5) movies in its database that you've rated most similarly to the new one. If 4 of those 5 "neighboring" movies are action films that you loved, it will confidently recommend the new movie, assuming it's also an action film you'll enjoy. It’s a prediction based on a majority vote among the closest known examples.
 
 ### **6. The "20 Questions" Model (Decision Tree)**
+
+![img_3.png](img_3.png)
 
 * **The Big Idea: A Flowchart of Simple Questions**
     A Decision Tree builds a model that looks exactly like a branching flowchart or an upside-down tree. It makes its final decision by navigating a path of simple, sequential "yes/no" questions based on the data's features.
@@ -59,11 +68,15 @@ This is the tool for "either/or" predictions, where the answer is a distinct cat
 
 ### **7. Finding Hidden Groups (K-Means Clustering)**
 
+![img_4.png](img_4.png)
+
 * **The Big Idea: Discovering Natural Groups in Unlabeled Data**
     This is a cornerstone of Unsupervised Learning. It's used when you have a dataset without any pre-existing labels and you want to discover if it contains any natural clusters or segments.
     * **Analogy: The Event Host.** Imagine you're hosting an event where guests don't know each other. To break the ice, you place 5 large "topic signs" (e.g., "Technology," "Travel," "Food") around the room. Guests naturally gravitate toward the sign that most interests them. After a minute, you look at the groups that have formed and move each sign to the absolute center of its respective group. Guests may re-evaluate and move to a new sign that is now closer. This iterative process of grouping and re-centering continues until the clusters are stable, and you've successfully created social groups from a once-random crowd. K-Means performs this exact process with data points.
 
 ### **8. Summarizing Your Data (Principal Component Analysis, or PCA)**
+
+![img_5.png](img_5.png)
 
 * **The Big Idea: Reducing Complexity by Finding the Core Story**
     Often, data has hundreds of features, making it overwhelmingly complex. Principal Component Analysis (PCA) is a brilliant technique for reducing this complexity. It's a data compression method, but instead of making a file smaller, it makes the *story* of the data simpler and easier to understand.
